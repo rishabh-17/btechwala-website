@@ -1,0 +1,79 @@
+[
+  {
+    "id": "laptopAccessories",
+    "name": "Laptop Accessories",
+    "slug": "laptop-accessories",
+    "products": [
+      {
+        "id": "ram",
+        "name": "Ram",
+        "price": 10,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdwVwIgH6ZBb3k0r6DtvqugdZHt0dt9he5GQ&s"
+      },
+      {
+        "id": "hdd",
+        "name": "HDD",
+        "price": 15,
+        "img": "https://cpimg.tistatic.com/09595252/b/4/1TB-Laptop-Hard-Disk-Drive.jpg"
+      },
+      {
+        "id": "ssd",
+        "name": "SSD",
+        "price": 30,
+        "img": "https://www.crucial.in/content/dam/crucial/ssd-products/mx500/images/lifestyle/crucial-MX500-lifestyle-laptop-2-image.psd.transform/small-jpg/img.jpg"
+      },
+      {
+        "id": "cashing",
+        "name": "Cashing",
+        "price": 100
+      },
+      {
+        "id": "pendrive",
+        "name": "Pen Drive",
+        "price": 5
+      }
+    ]
+  },
+  {
+    "id": "computerAccessories",
+    "name": "Computer Accessories",
+    "slug": "computer-accessories",
+    "products": [
+      {
+        "id": "cables",
+        "name": "Cables",
+        "price": 8
+      },
+      {
+        "id": "connector",
+        "name": "Connector",
+        "price": 12
+      },
+      {
+        "id": "convertor",
+        "name": "Convertor",
+        "price": 20
+      },
+      {
+        "id": "powersupply",
+        "name": "Power Supply",
+        "price": 50
+      },
+      {
+        "id": "motherboard",
+        "name": "Motherboard",
+        "price": 150
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "price": 25
+      },
+      {
+        "id": "mouse",
+        "name": "Mouse",
+        "price": 15
+      }
+    ]
+  }
+]

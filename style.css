@@ -1019,3 +1019,14 @@ figure.instagram-item img.insta-image {
 .post-navigation:focus svg {
     fill: var(--primary-color);
 }
+
+
+.noscroll::-webkit-scrollbar {
+	width: 0;
+  display: none;
+	background-color: #F5F5F5;
+}
+
+.selected-category {
+  border: 6px solid var(--primary-color);
+}
