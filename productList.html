@@ -324,15 +324,62 @@
                 class="navbar-nav text-uppercase justify-content-end align-items-center flex-grow-1 pe-3"
               >
                 <li class="nav-item">
-                  <a class="nav-link me-4" href="/index.html">Home</a>
+                  <a class="nav-link me-4 active" href="#billboard">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-4" href="/services.html">Services</a>
+                  <a class="nav-link me-4" href="#company-services">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-4 active" href="/products.html"
-                    >Products</a
+                  <a class="nav-link me-4" href="#mobile-products">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-4" href="#smart-watches">Watches</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-4" href="#yearly-sale">Sale</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-4" href="#latest-blog">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link me-4 dropdown-toggle link-dark"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                    >Pages</a
                   >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="about.html" class="dropdown-item">About</a>
+                    </li>
+                    <li>
+                      <a href="blog.html" class="dropdown-item">Blog</a>
+                    </li>
+                    <li>
+                      <a href="shop.html" class="dropdown-item">Shop</a>
+                    </li>
+                    <li>
+                      <a href="cart.html" class="dropdown-item">Cart</a>
+                    </li>
+                    <li>
+                      <a href="checkout.html" class="dropdown-item">Checkout</a>
+                    </li>
+                    <li>
+                      <a href="single-post.html" class="dropdown-item"
+                        >Single Post</a
+                      >
+                    </li>
+                    <li>
+                      <a href="single-product.html" class="dropdown-item"
+                        >Single Product</a
+                      >
+                    </li>
+                    <li>
+                      <a href="contact.html" class="dropdown-item">Contact</a>
+                    </li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <div class="user-items ps-5">
@@ -368,483 +415,9 @@
       </nav>
     </header>
     <div style="width: 100%; height: 160px"></div>
-    <section
-      id="mobile-products"
-      class="product-store position-relative padding-large no-padding-top"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="display-header d-flex justify-content-between pb-3">
-            <h2 class="display-7 text-dark text-uppercase">Our Collections</h2>
-            <div class="btn-right">
-              <a
-                href="shop.html"
-                class="btn btn-medium btn-normal text-uppercase"
-                >Go to Shop</a
-              >
-            </div>
-          </div>
-          <div
-            id="category-container"
-            class="d-flex justify-content-between overflow-auto noscroll"
-          >
-            <!-- <div class="me-4">
-              <img
-                src="https://www.reliancedigital.in/wp-content/uploads/2017/04/laptop_cover_banner.jpg"
-                alt=""
-                class="img-fluid rounded-circle category"
-                style="min-width: 150px; height: 150px"
-                onclick="selectCategory('laptopAccessories')"
-                id="laptopAccessories"
-              />
-              <h5 class="text-center">Laptop accessories</h5>
-            </div>
-            <div class="me-4">
-              <img
-                src="https://img.freepik.com/premium-photo/photo-computer-accessories-photographers_778780-6363.jpg"
-                alt=""
-                class="img-fluid rounded-circle category"
-                style="min-width: 150px; height: 150px"
-                onclick="selectCategory('computerAccessories')"
-                id="computerAccessories"
-              />
-              <h5 class="text-center">Computer accessories</h5>
-            </div>
-            <div class="me-4">
-              <img
-                src="https://printerpartspoint.com/cdn/shop/collections/41XgBOxP6TL_600x.jpg?v=1618338264"
-                alt=""
-                class="img-fluid rounded-circle category"
-                style="min-width: 150px; height: 150px"
-                onclick="selectCategory('printerAccessories')"
-                id="printerAccessories"
-              />
-              <h5 class="text-center">Printer accessories</h5>
-            </div>
-            <div class="me-4">
-              <img
-                src="https://www.sovol3d.com/cdn/shop/files/SV06_ACE_bac74066-86e4-420c-a200-97bd604f923c.jpg?v=1729910131&width=375"
-                alt=""
-                class="img-fluid rounded-circle category"
-                style="min-width: 150px"
-                onclick="selectCategory('importPrinter')"
-                id="importPrinter"
-              />
-              <h5 class="text-center">Import Printer</h5>
-            </div>
-            <div class="me-4">
-              <img
-                src="https://i.guim.co.uk/img/media/18badfc0b64b09f917fd14bbe47d73fd92feeb27/189_335_5080_3048/master/5080.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1562112c7a64da36ae0a5e75075a0d12"
-                alt=""
-                class="img-fluid rounded-circle category"
-                style="min-width: 150px"
-                onclick="selectCategory('importLaptop')"
-                id="importLaptop"
-              />
-              <h5 class="text-center">Import Laptop</h5>
-            </div>
-            <div class="me-4">
-              <img
-                src="https://i.guim.co.uk/img/media/18badfc0b64b09f917fd14bbe47d73fd92feeb27/189_335_5080_3048/master/5080.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1562112c7a64da36ae0a5e75075a0d12"
-                alt=""
-                class="img-fluid rounded-circle category"
-                style="min-width: 150px"
-                onclick="selectCategory('importMobile')"
-                id="importMobile"
-              />
-              <h5 class="text-center">Import Mobile phone</h5>
-            </div>
-            <div class="me-4">
-              <img
-                src="https://i.guim.co.uk/img/media/18badfc0b64b09f917fd14bbe47d73fd92feeb27/189_335_5080_3048/master/5080.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1562112c7a64da36ae0a5e75075a0d12"
-                alt=""
-                class="img-fluid rounded-circle category"
-                style="min-width: 150px"
-                onclick="selectCategory('antivirus')"
-                id="antivirus"
-              />
-              <h5 class="text-center">Antivirus</h5>
-            </div>
-            <div class="me-4">
-              <img
-                src="https://i.guim.co.uk/img/media/18badfc0b64b09f917fd14bbe47d73fd92feeb27/189_335_5080_3048/master/5080.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1562112c7a64da36ae0a5e75075a0d12"
-                alt=""
-                class="img-fluid rounded-circle category"
-                style="min-width: 150px"
-                onclick="selectCategory('software')"
-                id="software"
-              />
-              <h5 class="text-center">Software</h5>
-            </div> -->
-          </div>
-        </div>
-      </div>
-      <div class="swiper-pagination position-absolute text-center"></div>
-    </section>
-
-    <section
-      id="search-results-box"
-      class="product-store position-relative d-none"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="display-header d-flex justify-content-between pb-3">
-            <h2 id="searched-titles" class="display-7 text-dark text-uppercase">
-              Smart Watches
-            </h2>
-          </div>
-          <div class="swiper product-watch-swiper">
-            <div id="searched-products" class="swiper-wrapper"></div>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-pagination position-absolute text-center"></div>
-    </section>
-
-    <section
-      id="mobile-products"
-      class="product-store position-relative padding-large no-padding-top"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="display-header d-flex justify-content-between pb-3">
-            <h2 class="display-7 text-dark text-uppercase">Mobile Products</h2>
-            <div class="btn-right">
-              <a
-                href="shop.html"
-                class="btn btn-medium btn-normal text-uppercase"
-                >Go to Shop</a
-              >
-            </div>
-          </div>
-          <div class="swiper product-swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="product-card position-relative">
-                  <div class="image-holder">
-                    <img
-                      src="images/product-item1.jpg"
-                      alt="product-item"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="cart-concern position-absolute">
-                    <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black"
-                        >Add to Cart
-                        <svg class="cart-outline">
-                          <use xlink:href="#cart-outline"></use></svg
-                      ></a>
-                    </div>
-                  </div>
-                  <div
-                    class="card-detail d-flex justify-content-between align-items-baseline pt-3"
-                  >
-                    <h3 class="card-title text-uppercase">
-                      <a href="#">Iphone 10</a>
-                    </h3>
-                    <span class="item-price text-primary">$980</span>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product-card position-relative">
-                  <div class="image-holder">
-                    <img
-                      src="images/product-item2.jpg"
-                      alt="product-item"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="cart-concern position-absolute">
-                    <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black"
-                        >Add to Cart<svg class="cart-outline">
-                          <use xlink:href="#cart-outline"></use></svg
-                      ></a>
-                    </div>
-                  </div>
-                  <div
-                    class="card-detail d-flex justify-content-between align-items-baseline pt-3"
-                  >
-                    <h3 class="card-title text-uppercase">
-                      <a href="#">Iphone 11</a>
-                    </h3>
-                    <span class="item-price text-primary">$1100</span>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product-card position-relative">
-                  <div class="image-holder">
-                    <img
-                      src="images/product-item3.jpg"
-                      alt="product-item"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="cart-concern position-absolute">
-                    <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black"
-                        >Add to Cart<svg class="cart-outline">
-                          <use xlink:href="#cart-outline"></use></svg
-                      ></a>
-                    </div>
-                  </div>
-                  <div
-                    class="card-detail d-flex justify-content-between align-items-baseline pt-3"
-                  >
-                    <h3 class="card-title text-uppercase">
-                      <a href="#">Iphone 8</a>
-                    </h3>
-                    <span class="item-price text-primary">$780</span>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product-card position-relative">
-                  <div class="image-holder">
-                    <img
-                      src="images/product-item4.jpg"
-                      alt="product-item"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="cart-concern position-absolute">
-                    <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black"
-                        >Add to Cart<svg class="cart-outline">
-                          <use xlink:href="#cart-outline"></use></svg
-                      ></a>
-                    </div>
-                  </div>
-                  <div
-                    class="card-detail d-flex justify-content-between align-items-baseline pt-3"
-                  >
-                    <h3 class="card-title text-uppercase">
-                      <a href="#">Iphone 13</a>
-                    </h3>
-                    <span class="item-price text-primary">$1500</span>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product-card position-relative">
-                  <div class="image-holder">
-                    <img
-                      src="images/product-item5.jpg"
-                      alt="product-item"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="cart-concern position-absolute">
-                    <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black"
-                        >Add to Cart<svg class="cart-outline">
-                          <use xlink:href="#cart-outline"></use></svg
-                      ></a>
-                    </div>
-                  </div>
-                  <div
-                    class="card-detail d-flex justify-content-between align-items-baseline pt-3"
-                  >
-                    <h3 class="card-title text-uppercase">
-                      <a href="#">Iphone 12</a>
-                    </h3>
-                    <span class="item-price text-primary">$1300</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-pagination position-absolute text-center"></div>
-    </section>
-    <section
-      id="smart-watches"
-      class="product-store padding-large position-relative"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="display-header d-flex justify-content-between pb-3">
-            <h2 class="display-7 text-dark text-uppercase">Smart Watches</h2>
-            <div class="btn-right">
-              <a
-                href="shop.html"
-                class="btn btn-medium btn-normal text-uppercase"
-                >Go to Shop</a
-              >
-            </div>
-          </div>
-          <div class="swiper product-watch-swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="product-card position-relative">
-                  <div class="image-holder">
-                    <img
-                      src="images/product-item6.jpg"
-                      alt="product-item"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="cart-concern position-absolute">
-                    <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black"
-                        >Add to Cart<svg class="cart-outline">
-                          <use xlink:href="#cart-outline"></use></svg
-                      ></a>
-                    </div>
-                  </div>
-                  <div
-                    class="card-detail d-flex justify-content-between align-items-baseline pt-3"
-                  >
-                    <h3 class="card-title text-uppercase">
-                      <a href="#">Pink watch</a>
-                    </h3>
-                    <span class="item-price text-primary">$870</span>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product-card position-relative">
-                  <div class="image-holder">
-                    <img
-                      src="images/product-item7.jpg"
-                      alt="product-item"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="cart-concern position-absolute">
-                    <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black"
-                        >Add to Cart<svg class="cart-outline">
-                          <use xlink:href="#cart-outline"></use></svg
-                      ></a>
-                    </div>
-                  </div>
-                  <div
-                    class="card-detail d-flex justify-content-between align-items-baseline pt-3"
-                  >
-                    <h3 class="card-title text-uppercase">
-                      <a href="#">Heavy watch</a>
-                    </h3>
-                    <span class="item-price text-primary">$680</span>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product-card position-relative">
-                  <div class="image-holder">
-                    <img
-                      src="images/product-item8.jpg"
-                      alt="product-item"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="cart-concern position-absolute">
-                    <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black"
-                        >Add to Cart<svg class="cart-outline">
-                          <use xlink:href="#cart-outline"></use></svg
-                      ></a>
-                    </div>
-                  </div>
-                  <div
-                    class="card-detail d-flex justify-content-between align-items-baseline pt-3"
-                  >
-                    <h3 class="card-title text-uppercase">
-                      <a href="#">spotted watch</a>
-                    </h3>
-                    <span class="item-price text-primary">$750</span>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product-card position-relative">
-                  <div class="image-holder">
-                    <img
-                      src="images/product-item9.jpg"
-                      alt="product-item"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="cart-concern position-absolute">
-                    <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black"
-                        >Add to Cart<svg class="cart-outline">
-                          <use xlink:href="#cart-outline"></use></svg
-                      ></a>
-                    </div>
-                  </div>
-                  <div
-                    class="card-detail d-flex justify-content-between align-items-baseline pt-3"
-                  >
-                    <h3 class="card-title text-uppercase">
-                      <a href="#">black watch</a>
-                    </h3>
-                    <span class="item-price text-primary">$650</span>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product-card position-relative">
-                  <div class="image-holder">
-                    <img
-                      src="images/product-item10.jpg"
-                      alt="product-item"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="cart-concern position-absolute">
-                    <div class="cart-button d-flex">
-                      <a href="#" class="btn btn-medium btn-black"
-                        >Add to Cart<svg class="cart-outline">
-                          <use xlink:href="#cart-outline"></use></svg
-                      ></a>
-                    </div>
-                  </div>
-                  <div class="card-detail d-flex justify-content-between pt-3">
-                    <h3 class="card-title text-uppercase">
-                      <a href="#">black watch</a>
-                    </h3>
-                    <span class="item-price text-primary">$750</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-pagination position-absolute text-center"></div>
-    </section>
-    <section
-      id="yearly-sale"
-      class="bg-light-blue overflow-hidden mt-5 padding-xlarge"
-      style="
-        background-image: url('images/single-image1.png');
-        background-position: right;
-        background-repeat: no-repeat;
-      "
-    >
-      <div class="row d-flex flex-wrap align-items-center">
-        <div class="col-md-6 col-sm-12">
-          <div class="text-content offset-4 padding-medium">
-            <h3>10% off</h3>
-            <h2 class="display-2 pb-5 text-uppercase text-dark">
-              New year sale
-            </h2>
-            <a
-              href="shop.html"
-              class="btn btn-medium btn-dark text-uppercase btn-rounded-none"
-              >Shop Sale</a
-            >
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12"></div>
-      </div>
-    </section>
-
+    <div class="container py-5">
+      <div class="row g-4" id="product-list"></div>
+    </div>
     <footer id="footer" class="overflow-hidden">
       <div class="container">
         <div class="row">
@@ -1002,7 +575,8 @@
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="js/plugins.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" src="js/product.js"></script>
+    <script type="text/javascript" src="js/productList.js"></script>
     <!-- <script id="products" type="text/javascript" src="./products.json"></script> -->
+    <!-- <script src="js/product.js"></script> -->
   </body>
 </html>

@@ -1,0 +1,355 @@
+[
+  {
+    "id": "0840971e-28b0-42ae-bced-3047e5e50cf7",
+    "name": "Webcam",
+    "slug": "webcam",
+    "products": [
+      {
+        "id": "e9a30929-d9d8-4edc-9d20-2a518730d828",
+        "name": "Lapcare Web Camera Lwc-042",
+        "img": "IMAGE/1cc23b07-075b-468a-950a-db2e076cc9dd/htzEEeboBjMt1gJY-Bt7z",
+        "price": 950
+      }
+    ]
+  },
+  {
+    "id": "1d6817cf-2b5e-4283-8f3f-3c3343e769e1",
+    "name": "Cabinet",
+    "slug": "cabinet",
+    "products": []
+  },
+  {
+    "id": "2197fdd8-b5f6-4680-bb0c-1d008069ff1b",
+    "name": "EARPHONES",
+    "slug": "earphones",
+    "products": [
+      {
+        "id": "dc4d7476-3e1a-47e1-bb08-acb1f0da1224",
+        "name": "Ambrane  Wired Earphone Ep-56Pro",
+        "img": "IMAGE/97b618cd-bb44-4306-9332-296e00fa2b2d/Zi2utXbiceMtqPENsLM85-1CDC24E6-7A90-4757-8E93-4352FC9280EA.jpg",
+        "price": 249
+      }
+    ]
+  },
+  {
+    "id": "23b8fd8b-ff82-4f99-aaf5-92ca09c4fe1e",
+    "name": "Pendrive",
+    "slug": "pendrive",
+    "products": [
+      {
+        "id": "362a9307-9c04-43e1-a26d-6ed571261253",
+        "name": "Evm Enstore 32Gb Pendrive Usb 2.0",
+        "img": "IMAGE/4b9270f2-656d-4c61-bba7-92e735768217/XlIPol8rd3xcAQ5tOtWwA",
+        "price": 550
+      },
+      {
+        "id": "9ef7050c-c0e5-4061-b787-cdb64547096b",
+        "name": "Evm Enstore 16Gb USB 2.0 metal Pendrive",
+        "img": "IMAGE/ab4c279b-2d6b-4ecf-834a-3e59beb885e8/Th5mNHanV6CcjCoM0m58t",
+        "price": 350
+      }
+    ]
+  },
+  {
+    "id": "2d7fb39e-d14b-4271-bacf-458099991add",
+    "name": "Fingerprint scanner machine",
+    "slug": "fingerprint-scanner-machine",
+    "products": [
+      {
+        "id": "c8c11d13-9b0b-4c03-a5c3-e73830b4adbc",
+        "name": "Mantra MFS100",
+        "img": "IMAGE/5727298a-a1dd-4704-ae4d-fed993a53245/Wy0cNkFj-QLhKFEpluRDx",
+        "price": 3100
+      }
+    ]
+  },
+  {
+    "id": "2f1bae18-3ada-422a-8efd-d95da4c6551d",
+    "name": "External Hard Drive",
+    "slug": "external-hard-drive",
+    "products": [
+      {
+        "id": "9c17ae7f-ebd0-4124-9906-344c79344511",
+        "name": "TOSHIBA Canvio Ready",
+        "img": "IMAGE/09d38187-d806-40cf-904b-c0b3b4f87235/94CZTvQwzcRm4DF-nrAZS",
+        "price": 5400
+      }
+    ]
+  },
+  {
+    "id": "3588c967-387f-4e07-b814-820f8b6058d5",
+    "name": "Cpu Fan",
+    "slug": "cpu-fan",
+    "products": [
+      {
+        "id": "d7867237-9c08-44c0-af04-264e82244e7a",
+        "name": "Frontech  Cpu Fan",
+        "img": "IMAGE/170730dc-5d1c-44dc-be8b-ba7855e33adc/78falvo7noJjQwp9JZUWl",
+        "price": 350
+      }
+    ]
+  },
+  {
+    "id": "43b9049d-fe1f-4b17-8dd6-eafd457ef6f7",
+    "name": "Wired usb mouse",
+    "slug": "wired-usb-mouse",
+    "products": [
+      {
+        "id": "14f69486-9dd8-4efb-9c56-8150d23dfed6",
+        "name": "Frontech  optical mouse",
+        "img": "IMAGE/d511a094-259a-4662-8052-a34a754e8673/PemIUlAffiELkh9JvBG6i-1D1E2076-FDE3-4B75-98DF-4DEAD6639666.jpg",
+        "price": 250
+      },
+      {
+        "id": "25eeeaf6-3c15-468e-b004-1c37c1f018e0",
+        "name": "Hp M10 Wired Mouse ",
+        "img": "IMAGE/9c37d174-327d-477c-977a-7e3ae3e73973/9XlCeNQrOb7PIqhFuAnbW",
+        "price": 349
+      },
+      {
+        "id": "8d7a1801-cb75-4896-827c-b6b6a47203dc",
+        "name": "Zebronics  usb mouse ",
+        "img": "IMAGE/cf77a43e-21ae-46c2-be5e-1dddad4a6f94/IcJag9c3m9KCQ49jc6hhG",
+        "price": 149
+      },
+      {
+        "id": "e7591fe5-4b2e-46fa-aacb-86dd1c6e83e4",
+        "name": "Dell Optical mouse",
+        "img": "IMAGE/f24a214c-aefd-4b2e-8ba2-d77491828d08/MoTQ-CDDpF2sA7tuwCnlq",
+        "price": 350
+      }
+    ]
+  },
+  {
+    "id": "45ad0e12-ebc0-41da-99ea-91b4228c1610",
+    "name": "Charger cable",
+    "slug": "charger-cable",
+    "products": []
+  },
+  {
+    "id": "5119f64f-2313-4e1e-b1b9-7e9858700d3f",
+    "name": "Laptop stand",
+    "slug": "laptop-stand",
+    "products": [
+      {
+        "id": "98ed6799-7799-472f-8aed-e4d71481c723",
+        "name": "Adjustable Laptop Table Stand",
+        "img": "IMAGE/f0a855dc-cea4-4066-9ad1-cf55ec94f393/zXvl6U4YHM37jtOx9CRVp",
+        "price": 450
+      }
+    ]
+  },
+  {
+    "id": "539dedbe-a1fc-48a1-8806-385951ae8d4b",
+    "name": "Desktop Motherboard",
+    "slug": "desktop-motherboard",
+    "products": [
+      {
+        "id": "1e762fda-b4c0-4e2d-b13e-9d3813aabeed",
+        "name": "EVM H81 Motherboard D3",
+        "img": "IMAGE/944a8fed-f69e-4090-9f37-e30555dbf300/U4cFSVLqHD50bRVNDTcDH",
+        "price": 2350
+      },
+      {
+        "id": "6e25f8b8-a8ac-4817-b2f2-7f9a9a81f0d9",
+        "name": "Geonix H61 Motherboard D3",
+        "img": "IMAGE/94d5b048-cdb5-4301-8340-d64bbaab806e/JWFT9Hsye5Kt0ep0DorTb",
+        "price": 1650
+      }
+    ]
+  },
+  {
+    "id": "5a9e1227-c2cd-429a-917a-c508cc2309ed",
+    "name": "Smps",
+    "slug": "smps",
+    "products": []
+  },
+  {
+    "id": "6e804dd5-3e74-4b5e-8b66-e5d7a0260f63",
+    "name": "SSD",
+    "slug": "ssd",
+    "products": [
+      {
+        "id": "48e01807-0a0a-4766-9571-c3ca286c7639",
+        "name": "BRYT. Eco SSD SATA 2.5 inch 256 gb",
+        "img": "IMAGE/34952b55-06e3-4fec-b9f8-83f8869ce825/JS2SkyMf3IAQm2GOJAY-0",
+        "price": 1550
+      }
+    ]
+  },
+  {
+    "id": "87939ddb-ba4d-450e-957e-94df3726ad0a",
+    "name": "Wirless mouse",
+    "slug": "wirless-mouse",
+    "products": [
+      {
+        "id": "5439a009-b499-4654-811a-caee72f66e6c",
+        "name": "Lapcare Safari wireless mouse",
+        "img": "IMAGE/487dc12d-b583-4b61-922c-7e388d1303f7/ubiK446BEfFvN6p68vnC4",
+        "price": 399
+      }
+    ]
+  },
+  {
+    "id": "8ad2127d-edbc-4040-a57a-afcca1533434",
+    "name": "Refurbished Laptop",
+    "slug": "refurbished-laptop",
+    "products": []
+  },
+  {
+    "id": "8d50dc48-7af0-48d5-9556-397092d7b6a4",
+    "name": "Usb Hub",
+    "slug": "usb-hub",
+    "products": []
+  },
+  {
+    "id": "90a76cf1-7355-4ccf-93f0-1029213b9bfb",
+    "name": "Mobile charger",
+    "slug": "mobile-charger",
+    "products": []
+  },
+  {
+    "id": "9892e5ae-c971-4375-b516-97aae5efa00e",
+    "name": "Laptop Caddy",
+    "slug": "laptop-caddy",
+    "products": [
+      {
+        "id": "06fe4377-f223-4a1b-8a6a-1d386b1143f0",
+        "name": "Caddy 9.5mm",
+        "img": "IMAGE/f43a05a1-0021-4448-8e22-05250b93036e/0iDnU6LNjgj-RUAfdzRs0",
+        "price": 149
+      }
+    ]
+  },
+  {
+    "id": "999bddb5-86f9-4514-b610-af55d3456f00",
+    "name": "Mouse",
+    "slug": "mouse",
+    "products": []
+  },
+  {
+    "id": "9d263cb9-58a1-4cb5-90b6-a0e89172b8bf",
+    "name": "Wired Keyboard",
+    "slug": "wired-keyboard",
+    "products": []
+  },
+  {
+    "id": "a4419fd2-6fee-4539-8292-30046550cb6c",
+    "name": "NECKBAND",
+    "slug": "neckband",
+    "products": []
+  },
+  {
+    "id": "b303131e-e131-4c68-92dc-0fee10631f3b",
+    "name": "Thermal Paste",
+    "slug": "thermal-paste",
+    "products": []
+  },
+  {
+    "id": "b52b29de-b3fb-4e58-91b4-b5882d10e309",
+    "name": "Caddy",
+    "slug": "caddy",
+    "products": []
+  },
+  {
+    "id": "b5ca0b32-18ce-40d7-95b9-f816e355b117",
+    "name": "Refurbished Printer",
+    "slug": "refurbished-printer",
+    "products": [
+      {
+        "id": "172e072a-4a1f-4a17-bdd3-6ac192fc5859",
+        "name": "*HP M1005 ALL in One Printer PRINT + SCAN + PHOTOCOPY*  *(TOP CONDITION)*\ud83d\udc4d    ",
+        "img": "VIDEO/f9778b3c-1a02-4849-befb-2b5d8cafc7a9/Fjtf-1C6M90LTZzHpL7jn-aeb2bdb5-f524-454a-91bc-ab5396173a90.mp4",
+        "price": 16500
+      },
+      {
+        "id": "fcf96027-5d69-4015-a500-fc4867c144a3",
+        "name": "*Canon 2900B Lazer Printer Top Condition* Quantity Available*\ud83d\udc46",
+        "img": "VIDEO/597382a3-cc8c-470f-8e87-7eddf7622abe/1FYb6SNklNvSELuMzMljG-bdb70776-1e2c-4964-a7ed-e1f0cf59194c.mp4",
+        "price": 8500
+      }
+    ]
+  },
+  {
+    "id": "c640a885-cd96-45d0-92f9-cb90cd5393f1",
+    "name": "Antivirus",
+    "slug": "antivirus",
+    "products": [
+      {
+        "id": "227491c6-c26e-4bde-affc-ddeeba7854b0",
+        "name": "Quick  Heal Antivirus ",
+        "img": "IMAGE/9f92746b-534f-48a5-9eb3-49a906970f98/MCNlI0vf7BnpznoUfaq9y",
+        "price": 450
+      },
+      {
+        "id": "5c9ea1d6-3346-478d-87d2-da4bd5145ef7",
+        "name": "Net Protector Antivirus Pro",
+        "img": "IMAGE/1f4e4629-1917-4403-a6a0-ee7d9edad49d/HDWzXkqqvmBF2c9ubPG6x",
+        "price": 270
+      },
+      {
+        "id": "96b2a04b-959d-424d-a2d4-0ccf975f43c7",
+        "name": "Net Protector Total Security ",
+        "img": "IMAGE/4e180b01-8de1-49d3-aea1-48ae9df08cee/7V7Wv08z7nylOCI-jIUTZ",
+        "price": 350
+      }
+    ]
+  },
+  {
+    "id": "d277acc5-42f9-4b52-aa52-2e35f53af433",
+    "name": "Speaker",
+    "slug": "speaker",
+    "products": [
+      {
+        "id": "9a3ea8d5-ddea-4161-9b64-2940bb59ece9",
+        "name": "Zebronics Pluto Speaker 2.0",
+        "img": "IMAGE/fa00bc04-2f33-48f8-9b97-5ab58b0669cc/DU6kcLqQxDvHm30LvKNi1",
+        "price": 349
+      }
+    ]
+  },
+  {
+    "id": "d66e8706-acf3-40ad-9319-07cc5d1bf8a8",
+    "name": "C-Type to Usb Hub",
+    "slug": "c-type-to-usb-hub",
+    "products": [
+      {
+        "id": "e7442d9e-4827-4d64-9c18-a808789b9ac9",
+        "name": "Lapcare USB 3.0 4Port  Hub Lap-C",
+        "img": "IMAGE/6d2a21d5-ac7b-40c1-ab7d-b9354ed36474/kvXoVjHRJwe6HxoO7SbJi",
+        "price": 950
+      }
+    ]
+  },
+  {
+    "id": "d6a49f84-3140-422d-a71a-0a1e000dc40d",
+    "name": "Laptop Hard Drive",
+    "slug": "laptop-hard-drive",
+    "products": [
+      {
+        "id": "2389043d-fc80-403d-8b52-fc0ac86d83b4",
+        "name": "Geonix Laptop HardDrive 1TB",
+        "img": "IMAGE/cf79b6d0-db08-4605-9aa2-f216608725cf/thkb8-1sdbIHCPm0rbYqH",
+        "price": 2450
+      }
+    ]
+  },
+  {
+    "id": "d929e39c-a443-493f-b326-239561c17f07",
+    "name": "Cable",
+    "slug": "cable",
+    "products": []
+  },
+  {
+    "id": "ddb7f1df-80dc-43a8-973f-07fe3946c57e",
+    "name": "POWER BANK",
+    "slug": "power-bank",
+    "products": []
+  },
+  {
+    "id": "other",
+    "name": "other",
+    "slug": "other",
+    "products": []
+  }
+]
